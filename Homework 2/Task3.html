@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task3</title>
+</head>
+<body>
+	<canvas id="canvas1" width="200" height="200"></canvas>
+	
+	<canvas id="box" width-"200" height="200"></canvas>
+	<script>
+	var box = document.getElementById("box");
+	var ctx = box.getContext("2d");
+	ctx.fillStyle = "#FA5800";
+	ctx.fillRect(0,0,200,200);
+	</script>
+	
+	<canvas id="line" width-"200" height="200"></canvas>
+	<script>
+	var line = document.getElementById("line");
+	var ctx2 = line.getContext("2d");
+	ctx2.moveTo(200,0);
+	ctx2.lineTo(0,200);
+	ctx2.stroke();
+	</script>
+
+	<canvas id="circle" width-"200" height="200"></canvas>
+	<script>
+	var circle = document.getElementById("circle");
+	var ctx3 = circle.getContext("2d");
+	ctx3.strokeStyle = '#BE3CFF';
+	ctx3.beginPath();
+	ctx3.arc(95,50,40,0,2*Math.PI);
+	ctx3.fillStyle = "#00f";
+	ctx3.stroke();
+	</script>
+
+	<canvas id="text" width-"200" height="200"></canvas>
+	<script>
+	var text = document.getElementById("text");
+	var ctx5 = text.getContext("2d");
+	ctx5.strokeStyle = '#FFD600';
+	ctx5.font = "30px Calibri";
+	ctx5.strokeText("My first canvas text",10,50);
+	</script>
+</body>
+</html>
