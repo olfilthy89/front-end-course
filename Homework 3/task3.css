@@ -1,0 +1,35 @@
+.wrapper {
+    margin: 0px auto;
+    width: 400px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    background: #fffebd;
+    padding: 35px 30px;
+    font: 12px/12px"Times New Roman", serif;
+}
+h1 {
+    font-weight: bold;
+    margin: 0px;
+    color: brown;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+input {
+    color: white;
+    border: 0px none;
+    line-height: 26px;
+}
+.buttons {
+    overflow: auto;
+    clear: both;
+}
+.green {
+    float: left;
+    background: green;
+}
+.orange {
+    background: orange;
+}
+.right {
+    float: right;
+}

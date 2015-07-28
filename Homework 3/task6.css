@@ -1,0 +1,42 @@
+table{
+	width: 400px;
+	height: 50px;
+}
+
+.grey{
+	background: #C9C5BB;
+	color: black;
+}
+
+#single{
+	font-weight: bold;
+	text-align: left;
+}
+
+.sky-blue{
+	background: #82C3FF;
+	font-weight: bold;
+	padding: 2px;
+}
+
+.dark-grey{
+	background: #87847E;
+	color: black;
+}
+
+#solid-blue{
+	background: #395AFF;
+	color: black;
+	font-weight: bold;
+	text-align: right;
+}
+
+.very-blue{
+	background: #479CFF;
+	font-weight: bold;
+}
+
+#very-bold{
+	font-weight: bold;
+	text-align: left;
+}
