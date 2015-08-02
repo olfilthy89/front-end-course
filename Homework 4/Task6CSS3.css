@@ -1,0 +1,21 @@
+
+@keyframes example {
+    0%   {left:300px; top:0px;}
+    25%  {left:0px; top:0px;}
+    50%  {left:0px; top:300px;}
+    75%  {left:300px; top:300px;}
+    100% {left:300px; top:0px;}
+}
+
+.container1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: relative;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
