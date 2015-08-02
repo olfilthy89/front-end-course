@@ -1,0 +1,36 @@
+.container1 {
+	width: 280px;
+	height: 60px;
+	text-align: center;
+	padding-top: 20px;
+	background: #FF9C0D;
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	text-shadow: 3px 3px 3px white;
+	box-shadow: 0px 0px 5px;
+	float: left;
+	margin-right: 10px;
+}
+
+.container2 {
+	width: 280px;
+	height: 60px;
+	text-align: center;
+	padding-top: 20px;
+	background: white;
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+	text-shadow: 0px 0px 10px green;
+	box-shadow: 1px 1px 10px black;
+	float: left;
+}
+
+p {
+	width: 20%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	
+}

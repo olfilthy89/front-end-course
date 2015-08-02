@@ -1,0 +1,22 @@
+.container1 {
+	width: 200px;
+	height: 200px;
+	background-color: black;
+	color: white;
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	position: relative;
+}
+
+.container2 {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	color: white;
+	-ms-transform: skewX(20deg);
+	-webkit-transform: skewX(20deg);
+	transform: skewX(20deg);
+	position: absolute;
+	left: 40px;
+}

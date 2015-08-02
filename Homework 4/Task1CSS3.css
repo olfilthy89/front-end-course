@@ -1,0 +1,20 @@
+.container{
+width: 400px;
+height: 250px;
+background: #DCD7F2;
+border: solid black;
+padding: 10px 20px;
+}
+
+input{
+border: 1px solid black;
+border-radius: 5px;
+}
+
+#sub-button{
+width: 80px;
+height: 50px;
+border: black;
+background: #848191;
+border-radius:50px;
+}

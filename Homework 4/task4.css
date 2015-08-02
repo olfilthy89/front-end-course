@@ -1,0 +1,143 @@
+
+@keyframes container1 {
+	0% {width: 700px;}
+	50% {height: 200px;}
+	100% {background-color: yellow;}
+	}
+
+.container1 {
+width: 230px;
+height: 170px;
+color: black;
+border: solid black;
+padding-top: 50px;
+background: #FFFF2E;
+text-align: center;
+position: relative;
+left: 800px;
+top: 300px;
+font-style: italic;
+font-size: 40px;
+animation-name: container1;
+animation-duration: 6s;
+}
+
+
+@keyframes container2 {
+	0% {width: 100px;}
+	25% {height: 300px;}
+	50% {background-color: white;}
+	100% {background-color: teal;}
+}
+.container2 {
+width: 150px;
+height: 220px;
+color: white;
+border: solid black;
+background: #85857F;
+text-align: center;
+position: absolute;
+left:857px;
+top:100px;
+font-style: italic;
+font-size: 30px;
+padding-top: 22px;
+padding-bottom: 2px;
+animation-name: container2;
+animation-duration: 3s;
+}
+
+@keyframes container3 {
+	0% {position-left: 900px;}
+	25% {position-top: 200px;}
+	50% {width: 180px;}
+	60% {height: 300px;}
+	100 {background-color: blue;}
+}
+.container3 {
+width: 160px;
+height: 100px;
+color: black;
+border: solid black;
+background: #21DDFF;
+text-align: center;
+position: absolute;
+left: 780px;
+top: 500px;
+font-style: italic;
+font-size: 30px;
+padding-top: 40px;
+animation-name: container3;
+animation-duration: 6s;
+}
+
+.container4 {
+width: 190px;
+height: 100px;
+color: black;
+border: solid black;
+background: #2DFF4E;
+text-align: center;
+position: absolute;
+left: 720px;
+top: 230px;
+font-style: italic;
+font-size: 30px;
+padding-top: 22px;
+}
+
+.container5 {
+width: 100px;
+height: 80px;
+color: white;
+border: solid black;
+background: #EB0CE8;
+text-align: center;
+position: absolute;
+left: 970px;
+top: 200px;
+font-style: italic;
+font-size: 20px;
+padding-top: 22px;
+padding-bottom: 2px;
+}
+
+.container6 {
+width: 100px;
+height: 120px;
+color: black;
+border: solid black;
+background: #FF9C28;
+text-align: center;
+position: absolute;
+left: 745px;
+top: 110px;
+font-style: italic;
+font-size: 20px;
+padding-top: 22px;
+}
+
+
+@keyframes container7 {
+	0% {width: 200px;}
+	25% {height: 200px;}
+	50% {background-color: red;}
+}
+
+.container7 {
+width: 170px;
+height: 120px;
+color: white;
+border: solid black;
+background: #0015FF;
+text-align: center;
+position: absolute;
+left: 650px;
+top: 350px;
+font-style: italic;
+font-size: 30px;
+padding-top: 40px;
+padding-bottom: 0px;
+animation-name: container7;
+animation-duration: 6s;
+}

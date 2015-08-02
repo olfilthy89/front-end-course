@@ -1,0 +1,31 @@
+h1 {
+    background: #AD9F9E;
+    width: 800px;
+    height: 40px;
+    text-align: center;
+    color: #1E77AD;
+    border: solid #1E77AD;
+    font-family:"Arial", Times, sans-serif;
+}
+
+section {
+    border: solid #1E77AD;
+    width: 800px;
+    height: 205px;
+    padding-left: 3px;
+    background: #F55200;
+    clear: both;
+    overflow: auto;
+}
+
+
+article {
+    float: left;
+    width: 33%;
+    text-align: center;
+    
+}
+.foot {
+    color: #1E77AD;
+    width: 800px;
+}
