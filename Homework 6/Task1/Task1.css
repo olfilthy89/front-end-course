@@ -1,0 +1,39 @@
+#nav {
+width: 800px;
+margin: auto;
+list-style:none;
+}
+
+#nav li {
+float:left;
+background: url(task1_02.gif) repeat-x;
+
+}
+
+#nav a {
+display:block;
+text-align: center;
+padding: 10px 10px;
+text-decoration:none;
+color: white; 
+}
+
+#block {
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+#block2 {
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+a:hover {
+	background: url(Untitled-1.gif);
+}
+
+a:active {
+	color: black;
+}
+
+
