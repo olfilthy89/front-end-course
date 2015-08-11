@@ -1,0 +1,17 @@
+
+
+.data1 {
+  content: "";
+  display: table;
+  clear: both;
+}
+section {
+	width: 700px;
+	height: 700px;	
+}
+div {
+	float: left;
+}
+h2 {
+	text-align: center;
+}
