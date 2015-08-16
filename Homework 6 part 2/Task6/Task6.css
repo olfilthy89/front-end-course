@@ -1,0 +1,309 @@
+
+* {
+	margin: 0;
+	padding: 0; 
+}
+
+body {	
+	background: gray;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration:none; 
+}
+
+header {
+	background: url('img/header.png') no-repeat;
+	width: 770px;
+	height: 50px;
+}
+
+nav {
+	width: 450px;
+	height: 20px;
+	margin-bottom: 2px;
+}
+section {
+	width: 780px;
+	height: 305px;
+}
+article {
+	width: 450px;
+	height: 305px;
+	float: left;
+}
+aside {
+	background: white;
+}
+footer {
+	width: 775px;
+	height: 30px;
+	background: #5615DF;
+}
+
+.fix:after {
+ content: "JoroSoft";
+ display: table;
+ clear: both;
+ color: white;
+ padding-left: 15px;
+ font-style: italic;
+ font-size: 9px;
+ padding-top: 8px;
+ 
+}
+
+/*Layout*/
+#wrapper {
+	width: 775px;
+	height: 385px;
+	background: #C4A5E5;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.footer_text {
+	font-size: 13px;
+	color: white;
+	line-height: 30px;
+	display: block;
+	text-align: center;	
+}
+
+.leftas {
+	width: 120px;
+	height: 305px;
+	float: left;
+}
+
+.rightas {
+	width: 205px;
+	height: 305px;
+	float: left;
+}
+
+.article_main {
+	width: 444px;
+	height: 280px;
+	background: white;
+	margin-left: 3px;
+}
+
+.rightasco {
+	width: 205px;
+	height: 300px;
+	background: #f9f4fd;
+	margin-top: 3px;
+}
+
+#today1 {
+	color: #5E00E5;
+	font-size: 19px;
+	display: block;
+	margin-top: 5px;
+	margin-left: 15px;
+}
+
+#today-title  span {
+	width:10px;
+	height: 10px;
+	float:right;
+	margin-right: 45px;
+	margin-top: 8px;
+	font-size: 19px;
+	color: #5E00E5;
+}
+
+ul.today_list {
+	list-style-type: square; 
+	padding-left: 10px;
+}
+
+ul.today_list li {
+	margin-left: 15px;
+	width: inherit;
+	height: 13px;
+	font-size: 8px;
+}
+
+ul.today_list li a {
+	font-size: 12px;
+	color: #006699;
+}
+
+ul.today_list li a:hover {
+	color: black;
+}
+
+#life_title {
+	color: #5E00E5;
+	font-size: 19px;
+	display: block;
+	margin-top: 4px;
+	margin-left: 15px;
+}
+
+#life_title  span {
+	width:10px ;
+	height: 10px;
+	float:right;
+	margin-right: 45px;
+	margin-top: 8px;
+}
+
+ul.life_list {
+	list-style-type:square;
+	padding-left: 10px; 
+}
+
+ul.life_list li {
+	margin-left: 15px;
+	width: inherit;
+	height: 13px;
+	font-size: 8px;
+}
+
+ul.life_list li a {
+	font-size: 12px;
+	color: #006699;
+}
+
+ul.life_list li a:hover {
+	color: black;
+}
+
+.stars {
+	width: 75px;
+	height: 15px;
+	background: url('img/stars.png');
+	float: left;
+	margin-top: 4px;
+	margin-left: 5px;
+}
+
+ul.article_nav {
+	width: 450px;
+	height: 20px;
+}
+
+ul.article_nav li {
+	height: 15px;
+	float: left;
+	border-right: 1px solid #0000cc;
+	padding-right: 5px;
+	margin-left:5px;
+	margin-top: 5px;
+}
+
+ul.article_nav li a {
+	display: block;
+	height: 15px;
+	color: #0000cc;
+	font-size: 14px;
+}
+
+ul.article_nav li a:hover {
+	color: white;
+	transition: 0.5s;
+}
+
+ul.article_nav li:last-child {
+	border-right: none;
+}
+
+ul.content li.one {
+	overflow: auto;
+}
+
+ul.content li.one > img {
+	float: left;
+	margin:10px 10px;
+}
+
+ul.content li.one > h1 {
+	margin-top: 20px;
+	color: #DF1BD4;
+}
+
+ul.content li.one > span {
+	margin-top: 5px;
+	color: black;
+	font-size: 13px;
+}
+
+ul.content li.one > p {
+	margin-top: 5px;
+	color: #8515E5;
+	font-size: 15px;
+	font-weight:  bold;
+}
+
+ul.content li.two {
+	overflow: auto;
+	font-size: 9px;
+}
+
+ul.content li.two > p {
+	margin-top: 10px;
+	padding: 0px 10px;
+	color: #8515E5;
+	font-size: 16px;
+}
+
+ul.content li.three {
+	list-style-type: square;
+	color: orange;
+	list-style-position: inside;
+	font-size: 10px;
+	margin-top: 10px;
+	margin-left: 10px;  
+}
+
+ul.content li.three > a {
+	font-size: 12px;  
+}
+
+ul.content li.three > a:hover {
+	color: black;  
+}
+
+.rightasco ul li {
+	overflow: auto; 
+}
+
+.rightasco ul li > img {
+	float: left;
+	margin: 10px 10px 10px 10px;
+}
+
+.rightasco ul li > p {
+	color: #8515E5;
+	font-size: 13px;
+	margin-top: 10px;
+	padding: 0px 10px;
+}
+
+.rightasco ul li:last-child > ul li {
+	float: left;
+	list-style-type: square;
+	list-style-position: inside;
+	color: orange;
+	margin: 0px 0px 0px 15px;
+	font-size: 8px; 
+}
+
+.rightasco ul li > ul li:nth-child(4) {
+	margin-left: 37px;
+}
+
+.rightasco ul li a {
+	font-size: 12px;
+}
+
+.rightasco li a:hover {
+	color: black;
+}

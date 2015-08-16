@@ -1,0 +1,131 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: gray;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+p {
+	color: gray;
+}
+
+h1 {
+	font-size: 35px;
+	margin-top: 35px;
+	margin-bottom:10px;
+}
+
+ul {
+	list-style-type: none; 
+}
+
+span {
+	color: #79878C;
+	margin-left:350px; 
+	line-height: 50px;
+}
+
+header {
+	width: 800px;
+	height: 165px;
+	background: #444466;
+	border-radius: 25px 25px 0px 0px;
+}
+
+section {
+	width: 800px;
+	height: 385px;
+	background: white;
+}
+
+aside {
+	width: 185px;
+	height: 385px;
+	float: left;
+}
+
+nav {
+	width: 185px;
+	height: 200px;
+}
+
+article {
+	width: 515px;
+	height: 385px;
+	float: right;
+}
+
+footer {
+	width: 800px;
+	height: 65px;
+	background: #611900;
+	border-radius: 0px 0px 25px 25px;
+	overflow: auto;
+}
+
+#wrapper {
+	width: 800px;
+	height: 600px;
+	margin: 0 auto;
+	border-radius: 25px;
+	margin-top: 20px;
+}
+
+.logo {
+	margin-top: 40px;
+	margin-left: 130px;
+}
+
+.nav {
+	width: 185px;
+	height: 200px;
+}
+
+.nav li {
+	width: 165px;
+	height: 40px;
+	float: left;
+	border-bottom: 1px dotted black;	
+}
+
+.nav li a {
+	display: block;
+	width: 155px;
+	height: 40px;
+	padding-left: 10px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.nav li a:hover {
+	color: black;
+	background: #C6DEE5;
+}
+
+aside  p {
+	font-size: 12px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 14px;
+}
+
+.pharagraph-one {
+	color: black;
+	margin-bottom: 10px;
+	font-size: 15px;
+	padding-right: 20px;
+}
+
+.pharagraph-two {
+	color:black;
+	font-size: 15px;
+	padding-right: 20px;
+}
