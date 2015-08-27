@@ -1,0 +1,80 @@
+body {
+    background-color: #FFF5C8;
+    font-family: Arial, sans-serif;
+}
+.clearfix {
+    max-width: 980px;
+    margin: 0 auto;
+}
+.clearfix:after {
+    content:" ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+header {
+    background: grey;
+    color: white;
+    font-size: 20px;
+}
+h1 {
+    margin: 0em;
+    padding: 0.5em 1em;
+}
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    background: black;
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+nav li:hover {
+    background: #666;
+}
+li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+.content {
+    position: relative;
+    clear: both;
+    overflow: auto;
+    padding: 1em 0px;
+    background-color: white;
+}
+article {
+    display: block;
+    float: left;
+    width: 29%;
+    padding: 0% 2%;;
+}
+img {
+    display: block;
+    width: 100%;
+}
+footer {
+    background: black;
+    color: white;
+    padding: 10px 5px 10px;
+    text-align: center;
+}
+/*Here start the media breakpoints*/
+ @media (max-width: 768px) {
+    nav li {
+        display: block;
+        width: 100%;
+        margin: 0px;
+        border-bottom: 1px solid #fff;
+    }
+    article {
+        float: none;
+        width: 96%;
+    }
+}
