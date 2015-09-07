@@ -1,0 +1,17 @@
+#someContent {
+	width: 200px;
+	height: 100px;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	margin-left: 800px;
+	margin-top: 60px;
+}
+
+p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 23px;
+	line-height: 50px;
+}
