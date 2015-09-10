@@ -1,0 +1,14 @@
+#link {
+	font-size: 50px;
+	text-decoration: none;
+	margin-left: 780px;
+	color: black;
+}
+
+#element {
+	width: 500px;
+	height: 400px;
+	background-color: teal;
+	border: 5px solid red;
+	margin-left: 700px;
+}
